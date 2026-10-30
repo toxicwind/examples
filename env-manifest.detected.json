@@ -1,0 +1,17 @@
+{
+  "product": "examples",
+  "path": "/home/toxic/pens/ranch/products/examples",
+  "files": 3,
+  "detected_at": "2026-10-30T06:11:06.548826Z",
+  "env_vars": {
+    "FLOCK_KEY": [
+      "flock-free.sh"
+    ],
+    "MODEL": [
+      "herd-chat.sh"
+    ],
+    "count": [
+      "health-check.sh"
+    ]
+  }
+}
