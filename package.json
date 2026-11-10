@@ -1,0 +1,29 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Runnable proof that the ranch works. Everything here runs against the live estate on 127.0.0.1",
+  "scripts": {
+    "dev": "bun --hot run examples/health-check.sh",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "biome check .",
+    "fmt": "biome format --write .",
+    "build": "bun build"
+  },
+  "bin": {
+    "health-check": "health-check.sh",
+    "herd-chat": "herd-chat.sh",
+    "flock-free": "flock-free.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "latest",
+    "typescript": "^5.3.3",
+    "@biomejs/biome": "^1.7.3"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "type": "module",
+  "private": true
+}
